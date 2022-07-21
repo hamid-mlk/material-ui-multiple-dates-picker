@@ -31,7 +31,7 @@ var useStyles = (0, _styles.makeStyles)(function (theme) {
       '& > *': _defineProperty({
         width: 36,
         margin: "0 ".concat(theme.spacing(1), "px")
-      }, theme.breakpoints.down('xs'), {
+      }, theme.breakpoints?.down('xs'), {
         margin: "0 2px"
       })
     }

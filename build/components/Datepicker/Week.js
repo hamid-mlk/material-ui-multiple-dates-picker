@@ -50,14 +50,14 @@ var styles = function styles(theme) {
     },
     day: _defineProperty({
       margin: "0 ".concat(theme.spacing(1), "px")
-    }, theme.breakpoints.down('xs'), {
+    }, theme.breakpoints?.down('xs'), {
       margin: "0 2px"
     }),
     blank: _defineProperty({
       width: 36,
       height: 36,
       margin: "0 ".concat(theme.spacing(1), "px")
-    }, theme.breakpoints.down('xs'), {
+    }, theme.breakpoints?.down('xs'), {
       margin: "0 2px"
     })
   };

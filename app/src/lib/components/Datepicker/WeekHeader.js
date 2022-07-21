@@ -14,7 +14,7 @@ const useStyles = makeStyles(theme => ({
     '& > *': {
       width: 36,
       margin: `0 ${theme.spacing(1)}px`,
-      [theme.breakpoints.down('xs')]: {
+      [theme.breakpoints?.down('xs')]: {
         margin: `0 2px`,
       }
     }

@@ -44,7 +44,7 @@ var styles = function styles(theme) {
       backgroundColor: theme.palette.background["default"],
       display: 'flex',
       flexDirection: 'column'
-    }, theme.breakpoints.down('xs'), {
+    }, theme.breakpoints?.down('xs'), {
       display: 'none'
     }),
     header: {
