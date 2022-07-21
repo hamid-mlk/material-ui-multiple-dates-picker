@@ -15,7 +15,7 @@ var _Calendar = _interopRequireDefault(require("./Calendar"));
 
 var _core = require("@material-ui/core");
 
-var _styles = require("@material-ui/styles");
+var _styles = require("@material-ui/core/styles");
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
 
